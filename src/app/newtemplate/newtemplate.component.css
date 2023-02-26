@@ -1,0 +1,99 @@
+#form1 {
+    
+    height: 80vh;
+    width: 50vw;
+    border: 1px solid rgb(148, 148, 148);
+    box-shadow: 2px 2px rgb(196, 196, 196);
+    border-radius: 1%;
+}
+#grid {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    gap: 1vh;
+    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: grey;
+}
+
+
+#pic {
+    grid-column: 1 / span 10;
+    grid-row: 1 / span 5;
+    background-image: url("https://www.forbes.com/advisor/wp-content/uploads/2022/03/Image_-_Customer_service_rep_.jpeg-900x510.jpg");
+    background-position: right 10%;
+}
+#label1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 2;
+    grid-row: 6;
+}
+
+#input1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3 / span 7;
+    grid-row: 6;
+}
+
+#label2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 2;
+    grid-row: 7;
+}
+
+#input2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3 / span 7;
+    grid-row: 7;
+}
+
+#label3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 2;
+    grid-row: 8;
+}
+
+#input3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3 / span 7;
+    grid-row: 8;
+}
+
+#label4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / span 2;
+    grid-row: 9;
+}
+
+#input4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3 / span 7;
+    grid-row: 9;
+}
+
+#button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / span 8;
+    grid-row: 10;
+    box-shadow: 2px 2px grey;
+    color: grey;
+}
